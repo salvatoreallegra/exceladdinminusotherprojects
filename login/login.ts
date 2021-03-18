@@ -10,8 +10,8 @@ import { PublicClientApplication } from "@azure/msal-browser";
   Office.initialize = () => {
     const msalInstance = new PublicClientApplication({
       auth: {
-        clientId: "4f7f40ec-e6c8-4777-bfcc-5d6b18310bf0",
-        authority: "https://login.microsoftonline.com/cd77a053-a574-4d19-970a-973402c0fd62",
+        clientId: "239b0ee4-4b12-402d-9647-390709a6064f",
+        authority: "https://login.microsoftonline.com/8f286668-a35d-4240-ba30-4ff02857a8ce",
         redirectUri: "https://localhost:3000/login/login.html", // Must be registered as "spa" type
       },
       cache: {
@@ -35,7 +35,7 @@ import { PublicClientApplication } from "@azure/msal-browser";
             scopes: [
               // "user.read",
               // "files.read.all",
-              "https://saltrial.crm.dynamics.com/.default"
+              "https://pacts360-dev01.crm.microsoftdynamics.us/.default"
             ],
           });
         }

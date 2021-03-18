@@ -11,7 +11,7 @@ import { PublicClientApplication } from '@azure/msal-browser';
 
     const msalInstance = new PublicClientApplication({
         auth: {
-            clientId: 'fc19440a-334e-471e-af53-a1c1f53c9226',
+            clientId: '239b0ee4-4b12-402d-9647-390709a6064f',
             redirectUri: 'https://localhost:3000/logoutcomplete/logoutcomplete.html', 
             postLogoutRedirectUri: 'https://localhost:3000/logoutcomplete/logoutcomplete.html'
         }

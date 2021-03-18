@@ -112,7 +112,7 @@ export default class App extends React.Component<AppProps, AppState> {
     this.setState({ fileFetch: "fetchInProcess" });
     getGraphData(
       // Get the `name` property of the first 3 Excel workbooks in the user's OneDrive.
-      "https://saltrial.crm.dynamics.com/api/data/v9.1/WhoAmI",
+      "https://pacts360-dev01.crm.microsoftdynamics.us/api/data/v9.1/WhoAmI",
       this.accessToken
     )
       .then(async (response) => {
