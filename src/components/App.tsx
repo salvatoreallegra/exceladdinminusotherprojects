@@ -125,7 +125,7 @@ export default class App extends React.Component<AppProps, AppState> {
         // If this runs, then the `then` method did not run, so this error must be
         // from the Axios request in getGraphData, not the Office.js in
         // writeFileNamesToWorksheet
-        console.log("Access Token >>>>>>>>>>>>>>>>> ", this.accessToken);
+        console.log("Access Token >>>>>>>>>>>>>> ", this.accessToken);
         this.displayError(requestError);
       });
   };
